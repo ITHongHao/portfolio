@@ -1,0 +1,214 @@
+
+bio:
+  name: Ivan Tang
+  email: itang2@illinois.edu
+  resume: NA
+  github: https://github.com/ITHongHao/
+  website: NA
+  linkedin: https://www.linkedin.com/in/ivan-hhtang/
+  description: |
+    I am a senior undergraduate student studying computer science and anthropology at the University of Illinois in Urbana-Champaign.
+    I currently work as a research assistant under [Prof. Angela Lyons](https://ace.illinois.edu/directory/anglyons) under the National Center for Supercomputing Applications (NCSA).
+    I have experience in backend development, machine learning, and _____.
+    I am interested in developing [something].
+
+professional-experience:
+  - role: Research Assistant
+    company: National Center for Supercomputing Applications
+    location: Champaign, Illinois, United States
+    start-date: August 2025
+    end-date: Present
+    description: |
+      Analyzing 60+ years of municipality-level ERA5 climate data (dewpoint,
+      temperature, wind, precipitation) from Brazil using Python, Pandas, and
+      GeoPandas on NCSA's Delta supercomputer. Building exploratory
+      visualizations in Matplotlib to identify long-term climate trends and
+      regional disparities across 5,000+ municipalities. Training climate SARIMA
+      forecasting model to assist migration models of Brazil's population.
+    skills:
+      - Machine Learning
+      - Statistical Data Analysis
+      - Geospatial Data Science
+      - Geospatial Modeling
+      - Python
+      - Pandas
+      - GeoPandas
+      - Matplotlib
+      - SARIMA
+
+  - role: AI.Accelerate Program
+    company: ServiceNow
+    location: ""
+    start-date: December 2025
+    end-date: January 2026
+    description: |
+      Developed AI-powered email assistant with LLM model comparison metrics
+      with Streamlit. Assessed generated emails through judge prompts, improving
+      performance through data analytics. Created LLM testing suite, allowing
+      the user to share, compare, and visualize LLM performance on custom
+      datasets.
+    skills:
+      - Natural Language Processing (NLP)
+      - Prompt Engineering
+      - Agentic AI Development
+      - Azure OpenAI
+      - Data Analysis
+      - Python
+      - Streamlit
+
+  - role: Software Engineer Intern - Commercial Card
+    company: JPMorganChase
+    location: Chicago, Illinois, United States
+    start-date: January 2025
+    end-date: August 2025
+    description: |
+      Developed RESTful APIs with FastAPI to integrate forecasting services into
+      Commercial Card platform. Trained and evaluated forecasting models in
+      Databricks, achieving R² = 0.88 for monthly credit-utilization
+      prediction. Deployed ETL pipelines with SQL and Alteryx to process 100M+
+      financial transactions into AWS S3, delivering batch data to continuously
+      retrain the XGBoost model with fresh data.
+    skills:
+      - Databricks
+      - Amazon Web Services (AWS)
+      - Machine Learning
+      - Python
+      - Alteryx
+      - Teradata
+      - SQL
+      - Apache Spark
+
+  - role: Software Engineer Intern - Connected Platform
+    company: International
+    location: Chicago, Illinois, United States
+    start-date: August 2024
+    end-date: December 2024
+    description: |
+      Created a Python backend to decrypt 100K+ CAN messages, generating
+      CARB-compliant diagnostic reports that improve data accessibility for
+      compliance and engineering teams. Automated large-scale decryption of
+      500+ CAN signals using Azure Functions, streaming data to Azure
+      Postgres Database for consumer applications to use. Evaluated decryption
+      accuracy using Pytest, validating edge cases and signal errors to achieve
+      90% coverage.
+    skills:
+      - Python
+      - C++
+      - Azure IoT
+      - MATLAB
+      - Containerization
+      - CAN bus
+
+  - role: Enterprise Application Support Intern
+    company: Foundation Medicine
+    location: Boston, Massachusetts, United States
+    start-date: May 2024
+    end-date: August 2024
+    description: |
+      Trained and fine-tuned an Amazon Q Business chatbot, generating weekly
+      lab-ops reports for 2,000+ ServiceNow tickets. Automated 5,000+ oncology
+      report queries for lab teams through embedding JavaScript modules into
+      Salesforce. Evaluated chatbot accuracy with manual reviews, achieving an
+      F1-score of 0.91 and producing 20% fewer hallucinations.
+    skills:
+      - Amazon Web Services (AWS)
+      - JavaScript
+      - ServiceNow
+      - Agile Methodologies
+      - Confluence
+      - Jira
+      - Salesforce
+      - SOQL
+      - Apex Programming
+
+  - role: Teaching Assistant
+    company: University of Illinois Chicago
+    location: Chicago, Illinois, United States
+    start-date: January 2023
+    end-date: May 2023
+    description: |
+      Assisted students in learning foundational C++ concepts like
+      object-oriented programming, structs, classes, abstraction, pointers, and
+      various data structures. Evaluated and provided constructive feedback for
+      code readability, optimization techniques, and best practices for C++
+      projects. Led weekly lab sessions and office hours to teach students how
+      to translate logic into code, optimize with GDB and Valgrind, and debug
+      within VS Code and CLion.
+    skills:
+      - Object-Oriented Programming (OOP)
+      - Data Structures
+      - C++
+      - C
+      - Higher Education Teaching
+
+  - role: Business Technology Intern
+    company: PT Enoram Nusantara Optima
+    location: United States
+    start-date: May 2021
+    end-date: August 2021
+    description: |
+      Created business presentations and cryptocurrency training material with
+      Indonesia team for Jakarta vendors. Performed code reviews (Golang) to
+      uphold industry standards. Compiled data analytics and reports on
+      ServiceNow’s NOW Platform to reflect changes in customer behavior.
+      Exposed to cryptocurrency technology (distributed ledger, blockchain),
+      Golang, NOW Platform, and entrepreneurship.
+    skills:
+      - ServiceNow
+      - Golang
+      - Entrepreneurship
+
+
+certifications:
+  - name: "Microsoft Certified: Azure AI Engineer Associate"
+    issuer: Microsoft
+    issue-date: April 2025
+    expiration-date: April 2026
+    credential-id: 5D7076EEE9245907
+    url: https://learn.microsoft.com/api/credentials/share/en-us/IHHT-3141/5D7076EEE9245907?sharingId=FCF08B7AAD658C1
+    skills:
+      - Azure AI
+      - Azure AI Foundry
+      - Azure AI Studio
+      - Microsoft Azure
+      - Machine Learning
+      - Azure IoT
+      - Python
+
+  - name: "Alteryx Designer Core Certified"
+    issuer: Alteryx
+    issue-date: April 2025
+    expiration-date: April 2027
+    credential-id: "" # ID not visible in screenshot
+    url: "https://www.credly.com/badges/de85d384-8e88-4f99-bea9-cf02feb1c8eb"
+    skills:
+      - Alteryx
+      - Data Analysis
+      - Data Mining
+
+
+projects:
+  - name: "Climate Data Forecaster"
+    open-source: true
+    date: "January 2026"
+    status: "In Progress"
+    repo-url: "https://github.com/username/project"
+    demo-url: "https://project-demo.com" 
+    image-path: "/images/projects/climate-dashboard.png"
+    icon: "📊" 
+    featured: true   # If true, show on homepage. If false, only show on /projects.
+    priority: 1      # Order to display them in
+    summary: "A dashboard analyzing 60 years of Brazilian climate data."
+    description: |
+      Built a SARIMA forecasting model to predict temperature trends across 
+      5,000 municipalities. Optimized data processing with Pandas to handle 
+      10GB+ of ERA5 datasets.
+    tech-stack:
+      - Python
+      - Pandas
+      - Streamlit
+      - Azure
+    topics:
+      - Data Science
+      - Machine Learning
+      - Visualization
